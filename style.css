@@ -114,7 +114,7 @@ body {
 }
 
 .event-subtitle {
-    font-size: xxx-large;
+    font-size: 2cm;
     text-align: center;
     margin: 1rem 0 1.5rem;
     background: linear-gradient(270deg, #f07a0c, #fd510d, #cf4b30);
