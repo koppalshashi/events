@@ -44,8 +44,8 @@ body {
 /* Hero Section */
 .hero {
     background: 
-        linear-gradient(rgba(172, 148, 192, 0.7), rgba(88, 28, 135, 0.7)),
-        url('image2.png') no-repeat center center/cover;
+        linear-gradient(rgba(181, 129, 226, 0.7), rgba(184, 184, 26, 0.7)),
+        url('back.png') no-repeat center center/cover;
     color: white;
     padding: 4rem 1rem;
     position: relative;
@@ -53,7 +53,7 @@ body {
 }
 
 .hero::before, .hero::after {
-    content: '';
+    content:url();
     position: absolute;
     border-radius: 50%;
     filter: blur(2rem);
@@ -89,7 +89,7 @@ body {
     font-size: 3.5rem;
     text-align: center;
     margin: 1.5rem 0 0.5rem;
-    background: linear-gradient(270deg, #96e918, #db1d59, #cb7b19);
+    background: linear-gradient(270deg, #e5e8e2, #db1d59, #cb7b19);
     background-size: 300% 100%;
     -webkit-background-clip: text;
     background-clip: text;
@@ -114,10 +114,10 @@ body {
 }
 
 .event-subtitle {
-    font-size: 1.875rem;
+    font-size: xx-large;
     text-align: center;
     margin: 1rem 0 1.5rem;
-    background: linear-gradient(270deg, #96e918, #2d6fc1, #b3fc21);
+    background: linear-gradient(270deg, #f07a0c, #fd510d, #cf4b30);
     background-size: 300% 100%;
     -webkit-background-clip: text;
     background-clip: text;
